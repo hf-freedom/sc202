@@ -1,0 +1,10 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: reimbursement-system
+
+reimbursement:
+  small-amount-threshold: 5000
+  approval-timeout-minutes: 1
